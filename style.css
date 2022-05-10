@@ -1,0 +1,35 @@
+.alltabs{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.fun-facts li {
+    font-size: 15px;
+    font-weight: bold;
+}
+.fun-facts ol{
+    width: fit-content;
+    margin: auto;
+    line-height: 30px;
+    padding: 20px;
+}
+h2{
+text-align: center;
+background-color: bisque;
+}
+.fun-facts{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parent-of-article{
+    position: relative;
+    height: 250px;
+    border: 5px solid;
+}
+.active-article{
+    opacity: 1 !important;
+}
